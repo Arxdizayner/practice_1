@@ -1,31 +1,66 @@
 "use strict";
 
+console.log(1 && 5);
+console.log(0 && 1);
+console.log ('rerere' && 2 && 'wewe');
+console.log('re' && 're');
+console.log(true && true);
+console.log(true && false && true);
+console.log(2 && 're');
+console.log(NaN && 2 && undefined);
+console.log( 1 && 2 && 3 );
 
 
-const num = 50;
+console.log( NaN || 0 || 4);
 
-if (num < 49) {
-    console.log('Error');
-} else if (num > 100) {
-    console.log('Many');
+
+console.log( NaN || 2 || undefined );
+console.log( 5 === 5 && 3 > 1 || 5);
+
+console.log( !1 && 2 || !3 );
+console.log( !1 && 2 );
+
+
+console.log( !1 );
+
+const cola = 3;
+const free = 1;
+const burger = 8;
+
+if (cola === 3 && free){
+    console.log('full');
 } else {
-    console.log ('Ok');
+    console.log('need some buy');
 }
 
-(num == 50) ? console.log('Ok') : console.log('Error');
+console.log(cola === 3 && free);
 
 
-switch (num){
-    case 49:
-        console.log('Wrong');
-        break;
-    case 51:
-        console.log('Yes');
-        break;
-    default:
-        console.log('GoodBye');
-        break;
-}
+
+// const num = 50;
+
+// if (num < 49) {
+//     console.log('Error');
+// } else if (num > 100) {
+//     console.log('Many');
+// } else {
+//     console.log ('Ok');
+// }
+
+// (num == 50) ? console.log('Ok') : console.log('Error');
+
+
+// switch (num){
+//     case 49:
+//         console.log('Wrong');
+//         break;
+//     case 51:
+//         console.log('Yes');
+//         break;
+//     default:
+//         console.log('GoodBye');
+//         break;
+// }
 
 
 
