@@ -1,37 +1,61 @@
 "use strict";
 
-const numberofFilms = +prompt('How many films you did see?','');
 
-console.log(numberofFilms);
 
-const personalMovieDB = {
-    count: numberofFilms,
-    movies: {
+const num = 50;
+
+if (num < 49) {
+    console.log('Error');
+} else if (num > 100) {
+    console.log('Many');
+} else {
+    console.log ('Ok');
+}
+
+(num == 50) ? console.log('Ok') : console.log('Error');
+
+
+switch (num){
+    case 49:
+        console.log('Wrong');
+        break;
+    case 51:
+        console.log('Yes');
+        break;
+    default:
+        console.log('GoodBye');
+        break;
+}
+
+
+
+
+// const numberofFilms = +prompt('How many films you did see?','');
+
+// console.log(numberofFilms);
+
+// const personalMovieDB = {
+//     count: numberofFilms,
+//     movies: {
         
-    },
-    actors: {},
-    genres: [],
-    privat: false
-};
+//     },
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+
+// const a = prompt('What last film you did see?', '');
+// const b = +prompt('Rate last film', '');
+// const c = prompt('What last film you did see?', '');
+// const d = +prompt('Rate last film', '');
 
 
 
-const a = prompt('What last film you did see?', '');
-const b = +prompt('Rate last film', '');
-const c = prompt('What last film you did see?', '');
-const d = +prompt('Rate last film', '');
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
 
-
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-
-
-
-
-
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
 
 
 
